@@ -1,0 +1,30 @@
+{
+  "type": "module",
+  "name": "cards-app",
+  "version": "1.0.0",
+  "description": "Multiplayer card game inspired by the game \"Exploding Kittens\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js",
+    "initDb": "node ./src/database/initDb.js"
+  },
+  "author": "Daniel Veiga",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.34.0"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.9.2",
+    "zod": "^3.22.4"
+  }
+}
